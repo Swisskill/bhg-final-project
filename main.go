@@ -7,6 +7,7 @@ import (
 	"os"
 )
 
+//here is a comment
 func main() {
 	pull, x := os.Open("getFiles.go")
 	if x != nil {
